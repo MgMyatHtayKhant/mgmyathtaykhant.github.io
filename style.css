@@ -1,0 +1,62 @@
+div.container-fluid > h1 {
+  text-transform: uppercase;
+  word-spacing: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+div.img-me {
+  width: 200px;
+  margin: 0 auto;
+}
+
+div.img-me > img {
+height: 250px;
+object-position: top;
+object-fit: cover;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 5px;
+}
+
+ul.nav-tabs {
+    display: none;
+}
+
+/* My Information */
+div.my-info {
+  gap: 2rem;
+}
+
+/* My Skills */
+div.my-skill i, small {
+  font-size: 20px;
+}
+
+/* My Contact */
+div.carousel-item div.my-contact-img {
+  width: 100px;
+  aspect-ratio: 1/1;
+  margin: 0 auto;
+}
+
+
+div.my-info div.card-body {
+  text-indent: 90px;
+}
+
+div.img-peacock {
+  width: 130px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 576px) {
+  ul.nav-tabs {
+    display: flex;
+  }
+
+  nav.navbar {
+    display: none;
+  }
+}
